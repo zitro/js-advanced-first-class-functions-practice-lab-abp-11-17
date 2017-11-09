@@ -31,10 +31,10 @@ array.reduce(function (res, value) {
 
 const getTotalRevenue = function (products) {
   let totalPrice = 0;
- 
+
   products.forEach(function (product) {
     totalPrice += product.price;
   });
- 
+
   return totalPrice;
 };
