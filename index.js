@@ -28,8 +28,7 @@ return name1.name.localeCompare(name2.name);
 };
 
 const totalRevenue = function (driver) {
-let newRevenue =;
   driver.reduce(function (array) {
-    return newRevenue === array.revenue;
+    return newRevenue console.log(array.revenue);
   });
 };
