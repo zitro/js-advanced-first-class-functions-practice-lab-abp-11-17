@@ -29,5 +29,10 @@ return name1.name.localeCompare(name2.name);
 
 const totalRevenue = function (driver) {
   return driver.reduce(function (total, array) {
-    return array.revenue + total;}, 0);
+    return total + array.revenue;}, 0);
   };
+
+  const averageRevenue = function (driver) {
+    return driver.reduce(function (total, array) {
+      return total + array.revenue + total;}, 0);
+    };
