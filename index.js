@@ -21,7 +21,7 @@ return driver1.revenue - driver2.revenue;
 };
 
 const driversByName = function (driver){
-  return driver.slice().sort(function (name1, name2){
+  return driver.sort(function (name1, name2){
 return name1.name.localeCompare(name2.name);
 
   });
