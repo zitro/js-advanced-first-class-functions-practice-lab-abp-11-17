@@ -28,7 +28,7 @@ return name1.name.localeCompare(name2.name);
 };
 
 const totalRevenue = function (driver) {
-  return driver.reduce(function (total, array) {
+  return driver.reduce(function (total, array); {
     return array.revenue + total;
   });
 };
