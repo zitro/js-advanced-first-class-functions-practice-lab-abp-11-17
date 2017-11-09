@@ -7,9 +7,14 @@ const logDriverNames = function (drivers) {
 };
 const logDriversByHometown = function (driver, location) {
   driver.forEach(function (array) {
-    console.log(array.name);
+    if(driver.location === location){
+      console.log(array.name);}
   });
-};
+
+
+
+
+
 
 var result = [];
 array.reduce(function (res, value) {
@@ -23,3 +28,13 @@ array.reduce(function (res, value) {
     res[value.Id].qty += value.qty
     return res;
 }, {});
+
+const getTotalRevenue = function (products) {
+  let totalPrice = 0;
+ 
+  products.forEach(function (product) {
+    totalPrice += product.price;
+  });
+ 
+  return totalPrice;
+};
