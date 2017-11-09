@@ -31,4 +31,4 @@ const totalRevenue = function (driver) {
   return driver.reduce(function (total, array) {
     return array.revenue + total;}, 0);
   });
-};
+
