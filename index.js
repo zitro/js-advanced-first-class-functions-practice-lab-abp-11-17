@@ -27,8 +27,8 @@ return name1.name.localeCompare(name2.name);
   });
 };
 
-const logDriverNames = function (driver) {
-  driver.forEach(function (array) {
-    console.log(array.name);
+const totalRevenue = function (driver) {
+  driver.reduce(function (array) {
+    console.log(array.revenue);
   });
 };
