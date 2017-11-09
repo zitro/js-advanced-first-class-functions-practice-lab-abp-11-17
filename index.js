@@ -10,7 +10,4 @@ const logDriversByHometown = function (driver, location) {
     if(driver.location === location){
       console.log(array.name);}
   });
-
-
-
-
+}
