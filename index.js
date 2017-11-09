@@ -12,11 +12,3 @@ const logDriversByHometown = function (drivers, location) {
       console.log(array.name);}
   });
 };
-
-const logDriversByHometown = function (drivers, hometown) {
-  drivers.forEach(function (driver) {
-    if (driver.hometown === hometown) {
-      console.log(driver.name);
-    }
-  });
-};
